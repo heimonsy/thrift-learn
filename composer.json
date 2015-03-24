@@ -1,0 +1,20 @@
+{
+    "name": "heimonsy/thrift-learn",
+    "description": "thrift php client learn",
+    "keywords": ["thrift", "php"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "heimonsy",
+            "email": "heimonsy@gmail.com"
+        }
+    ],
+    "require": {
+        "eleme/thrift-php": "0.9.*"
+    },
+    "autoload": {
+        "classmap": [
+            "gen-php"
+        ]
+    }
+}
